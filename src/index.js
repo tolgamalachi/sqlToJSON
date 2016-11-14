@@ -3,7 +3,7 @@ var CronJob = require('cron').CronJob;
 var sqlToJSON = require('../lib/index');
 
 var job = new CronJob({
-    cronTime: '45 * * * * *',     // run every minute
+    cronTime: '00 * * * * *',     // run every minute
     onTick: function () {
         sqlToJSON.procedure(config);
     },
