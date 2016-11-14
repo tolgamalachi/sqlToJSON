@@ -1,0 +1,10 @@
+{
+  "sql": {
+    "host": "localhost",
+    "port": 6603,
+    "user": "mosaik",
+    "password": "nochgeheimer",
+    "database": "mosaiktest"
+  },
+  "outputPath": "/home/tolga/Schreibtisch"
+}

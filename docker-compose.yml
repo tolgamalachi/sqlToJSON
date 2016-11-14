@@ -9,3 +9,12 @@ services:
       MYSQL_USER: mosaik
       MYSQL_PASSWORD: nochgeheimer
       MYSQL_DATABASE: mosaiktest
+    networks:
+      sqltojsonnetwork:
+          aliases:
+            - sqlserver
+
+networks:
+  sqltojsonnetwork:
+    external:
+      name: sqltojsonnetwork

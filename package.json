@@ -1,0 +1,29 @@
+{
+  "name": "sqltojson",
+  "version": "1.0.0",
+  "description": "program to take a sql query and write its output as a json file",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --harmony src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/tolgamalachi/sqlToJSON.git"
+  },
+  "keywords": [
+    "sql",
+    "json"
+  ],
+  "author": "Tolga Aydemir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/tolgamalachi/sqlToJSON/issues"
+  },
+  "homepage": "https://gitlab.com/tolgamalachi/sqlToJSON#README",
+  "dependencies": {
+    "cron": "^1.1.1",
+    "jsonfile": "^2.4.0",
+    "mysql": "^2.12.0"
+  }
+}
