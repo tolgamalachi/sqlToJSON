@@ -1,4 +1,4 @@
-var sqlToJSON = require('../lib/index');
+var sqlToJSON = require('../src/index');
 
 'use strict';
 
@@ -12,7 +12,7 @@ module.exports = function (grunt) {
         var options = this.options();
         var done = this.async();
 
-        sqlToJSON.procedure(options).then(() => {
+        sqlToJSON(options).then(() => {
             done(true);
         }).catch((e) => {
             console.error("An error appeared while the sqlToJSON Procedure");

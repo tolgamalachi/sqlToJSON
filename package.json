@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "grunt test",
-    "start": "node --harmony src/index.js"
+    "start": "node --harmony example/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,12 @@
     "sql",
     "json"
   ],
-  "author": "Tolga Aydemir",
+  "author": {
+    "name": "Tolga",
+    "company": "MOSAIK Software",
+    "email": "ta@mosaiksoftware.de",
+    "url": "http://mosaiksoftware.de"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://gitlab.com/tolgamalachi/sqlToJSON/issues"
