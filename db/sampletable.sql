@@ -1,8 +1,6 @@
-DROP DATABASE IF EXISTS mosaiktest;
-CREATE DATABASE IF NOT EXISTS mosaiktest;
 USE mosaiktest;
 
-CREATE TABLE menschen (
+CREATE TABLE IF NOT EXISTS menschen (
   name    VARCHAR(300),
   vorname VARCHAR(300)
 );
