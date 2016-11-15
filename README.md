@@ -50,7 +50,7 @@ sqlToJSON: {
         }
 ```
 
-You can write you querys in the `querys` array and also specify an output filename for the result of the query.
+You can write your querys in the `querys` array and also specify an output filename for the result of the query.
 The `outputPath` has to exist. Otherwise the application will crash.  
 The `sql` options should be set appropriately.
 
