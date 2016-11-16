@@ -3,6 +3,11 @@ sqlToJSON
 
 Fires SQL-Querys and writes their results into JSON files in a specified directory.
 
+How to install with npm:
+------------------------
+
+`npm install https://github.com/tolgamalachi/sqlToJSON.git`
+
 How to use:
 ----------
 
