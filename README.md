@@ -6,7 +6,17 @@ Fires SQL-Querys and writes their results into JSON files in a specified directo
 How to install with npm:
 ------------------------
 
+Because we haven't commited this package to the npm repo yet you have to install it using a direct link to this repo.
+
 `npm install https://github.com/tolgamalachi/sqlToJSON.git`
+
+whenever you want to update the sourcecode you have to uninstall and reinstall the package. 
+
+```
+npm uninstall sqlToJSON
+npm install https://github.com/tolgamalachi/sqlToJSON.git
+
+```
 
 How to use:
 ----------
